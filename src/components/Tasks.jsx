@@ -1,6 +1,8 @@
 import React from "react";
 import NewTask from "./NewTask";
 
+//TODO: add separated list of tasks for selectedProject !!!
+
 const Tasks = ({ tasks, onAdd, onDelete }) => {
 	return (
 		<section>
@@ -16,7 +18,10 @@ const Tasks = ({ tasks, onAdd, onDelete }) => {
 					{tasks.map((task) => (
 						<li key={task.id} className="flex justify-between my-4">
 							<span>{task.text}</span>
-							<button onClick={() => onDelete(task.id)} className="text-stone-700 hover:text-red-500 hover:scale-105">
+							<button
+								onClick={() => onDelete(task.id)}
+								className="text-stone-700 hover:text-red-500 hover:scale-105"
+							>
 								Clear
 							</button>
 						</li>
