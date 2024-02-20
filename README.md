@@ -11,12 +11,12 @@ This repository is for my React project called "Project Management." Let's go ov
 1. First, clone the repository:
 
    ```bash
-   git clone https://github.com/svd-serhii/Practice-Project---Project-Management.git
+   git clone https://github.com/svd-serhii/project-management.git
 
    ```
 
 2. Navigate to the project folder:
-   cd Practice-Project---Project-Management
+   cd project-management
 
 3. Install dependencies:
    npm install
@@ -26,7 +26,7 @@ This repository is for my React project called "Project Management." Let's go ov
 
 ## Usage
 
-Open your browser and go to http://localhost:3000.
+Open your browser and go to http://localhost:5173.
 Log in or register.
 Add projects, tasks, and manage resources.
 
@@ -44,5 +44,6 @@ git commit -m "Add new feature"
 
 3. Send a pull request on GitHub.
 
-## Changelog
-v1.0.0 (2024-02-07): Initial release of “Project Management.”
+## Author
+
+[Serhii Demchenko](https://github.com/svd-serhii)
